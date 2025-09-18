@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Adding your Flexbox and Grid styles below */
+/* Make navbar a flex container */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* keeps everything nicely aligned vertically */
+  padding: 0.5rem 1rem;
+}
+
+/* Make nav-menu and nav-social flex containers */
+.nav-menu,
+.nav-social {
+  display: flex;
+  gap: 1rem; /* space between items */
+  list-style: none; /* remove bullets from menu */
+  margin: 0;
+  padding: 0;
+}
+
+/* Optional: style links */
+.nav-menu a,
+.nav-social a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.page-container {
+    /* TODO: Make this a grid container */
+    /* TODO: Define grid areas for each section */
+    /* TODO: Set up appropriate row sizes */
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+.page-container {
+  display: grid; /* Make it a grid container */
+  grid-template-areas:
+    "hero"
+    "about"
+    "skills"
+    "portfolio"
+    "contact"; /* Define the grid areas in order */
+  grid-template-rows: auto auto auto auto auto; /* Each row auto-sizes */
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+/* Assign grid areas to each section */
+.hero {
+  grid-area: hero;
+}
+
+.about {
+  grid-area: about;
+}
+
+.skills {
+  grid-area: skills;
+}
+
+.portfolio {
+  grid-area: portfolio;
+}
+
+.contact {
+  grid-area: contact;
+}
+
+.skills-container {
+    /* TODO: Make this a flex container */
+    /* TODO: Allow cards to wrap */
+    /* TODO: Add space between cards */
+}
+
+.skill-card {
+    /* TODO: Set flex properties for responsive sizing */
+    /* TODO: Add styling for the cards */
+    background: #f4f4f4;
+    padding: 2rem;
+    border-radius: 8px;
+    text-align: center;
+}
+.skills-container {
+  display: flex;          /* Make it a flex container */
+  flex-wrap: wrap;        /* Allow cards to wrap onto new lines */
+  gap: 1.5rem;            /* Space between cards */
+  align-items: stretch;   /* Make all cards equal height */
+}
+
+.skill-card {
+  flex: 1 1 250px;        /* Grow/shrink, min width ~250px */
+  background: #f4f4f4;
+  padding: 2rem;
+  border-radius: 8px;
+  text-align: center;
+  display: flex;          /* Ensures inner content can stretch */
+  flex-direction: column; /* Stack content vertically */
+  justify-content: center;/* Center content within card */
+}
+
+.gallery {
+    /* TODO: Make this a grid container */
+    /* TODO: Create responsive columns */
+    /* TODO: Add gaps between projects */
+}
+
+.project {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    padding: 1rem;
+    text-align: center;
+}
+
+.project img {
+    width: 100%;
+    border-radius: 4px;
+}
+.gallery {
+  display: grid; 
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); /* Responsive columns */
+  gap: 1.5rem; /* Space between projects */
+}
+
+.project {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  padding: 1rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column; /* Helps keep content stacked */
+}
+
+.project img {
+  width: 100%;
+  height: auto;       /* Maintain aspect ratio */
+  object-fit: cover;  /* Ensure image covers container if sized */
+  border-radius: 4px;
+}
+@media (max-width: 768px) {
+    .navbar {
+        /* TODO: Stack navbar items vertically */
+    }
+    
+    .skills-container {
+        /* TODO: Make cards stack on mobile */
+    }
+    
+    .gallery {
+        /* TODO: Adjust grid columns for 
