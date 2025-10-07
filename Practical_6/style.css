@@ -14,8 +14,9 @@ body {
 /* Header Section */
 header {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    flex-direction: column; /* Stack children vertically */
+    align-items: flex-start; /* Align children to the start */
+    justify-content: flex-start; /* Align children to the top */
     padding: 1rem 2rem;
     background-color: #e0e0e0; /* greyish background */
     box-shadow: 0 2px 5px rgba(0,0,0,0.05);
@@ -199,17 +200,18 @@ header .logo {
         align-items: flex-start;
     }
 
+    /* Keep navbar and its children horizontal */
     .navbar {
-        flex-direction: column;
-        gap: 0.5rem;
-        width: 100%;
+        flex-direction: row; /* Always horizontal */
+        gap: 1.5rem;
+        width: auto;
     }
 
     .nav-menu,
     .nav-social {
-        flex-direction: column;
-        gap: 0.5rem;
-        width: 100%;
+        flex-direction: row; /* Always horizontal */
+        gap: 1rem;
+        width: auto;
     }
 
     .skills-container {
