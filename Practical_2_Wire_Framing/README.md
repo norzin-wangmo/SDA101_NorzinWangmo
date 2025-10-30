@@ -12,25 +12,25 @@ Through this, I learned how to organize navigation bars, forms, and buttons, and
 ## Screenshots of the Wireframe Design
 
 ### Home Page  
-![Home Page](assets/Home.png)
+![Home Page](Assets/Home.png)
 
 ### Menu Page  
-![Menu Page](assets/Menu.png)
+![Menu Page](Assets/Menu.png)
 
 ### Order Online Page  
-![Order Online Page](assets/OO.png)
+![Order Online Page](Assets/OO.png)
 
 ### Order Process Page  
-![Order Process Page](assets/Order_p.png)
+![Order Process Page](Assets/Order_p.png)
 
 ### Payment Page  
-![Payment Page](assets/Payment.png)
+![Payment Page](Assets/Payment.png)
 
 ### Order Successful Page  
-![Order Successful Page](assets/p2.png)
+![Order Successful Page](Assets/p2.png)
 
 ### Contact Page  
-![Contact Page](assets/Contact.png)
+![Contact Page](Assets/Contact.png)
 
 ---
 
