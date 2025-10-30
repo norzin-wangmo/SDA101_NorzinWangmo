@@ -16,3 +16,12 @@ This practical exercise involves using Figma to replicate the design of Collge w
 ![Admissions Page](assets/A2.png)
 
 ## 2. RUB Website Replication
+**Link to the original website: [RUB](https://www.rub.edu.bt/)**
+
+**Link to the Figma file: [RUBWebsite](https://www.figma.com/design/DDrEgJQ28JXnbuu2vYtNcf/RUB-Website-Replica?node-id=0-1&t=cwDljuq34NFkEuHF-1)**
+
+### Screenshots of the replicated design:
+![Home Page](assets/Home.png)
+![Drop down](assets/dropdown.png)
+![Programmes Page](assets/pg1.png)
+![Programmes Page](assets/pg2.png)

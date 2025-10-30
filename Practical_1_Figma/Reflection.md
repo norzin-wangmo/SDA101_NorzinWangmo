@@ -7,3 +7,9 @@ One of the key challenges I faced was ensuring that the replicated design was no
 Overall, this exercise has enhanced my skills in using Figma for web design and has provided me with valuable insights into the design process. I look forward to applying these skills in future projects.
 
 ## 2. RUB Website Reflection
+
+In this practical session, I learned how to use Figma to replicate the official Royal University of Bhutan (RUB) website. The task involved analyzing and recreating various web components, such as the navigation bar, hero image, programme listings, and footer section. By carefully observing the layout, color scheme, and typography, I was able to match the website’s overall look and feel.
+
+One of the most important parts of this exercise was maintaining visual consistency across pages, including interactive elements like the dropdown menu. It required precision in aligning text, adjusting spacing, and selecting the correct background colors to achieve a realistic replica.
+
+Through this experience, I improved my understanding of UI design principles, layout structure, and how to prototype an entire webpage using Figma tools. It helped me develop a stronger eye for detail and boosted my confidence in designing professional and functional web layouts.
